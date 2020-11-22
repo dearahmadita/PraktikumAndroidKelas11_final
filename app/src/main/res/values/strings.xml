@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PraktikumAndroidKelas11_final</string>
+    <string name="email" />
+    <string name="password" />
+    <string name="button" />
+    <string name="student_id" />
+    <string name="student_name" />
+    <string name="student_phone_number" />
+    <string name="save" />
+    <string name="dial" />
+</resources>

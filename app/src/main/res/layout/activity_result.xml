@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tvIdResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student_id"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvNameResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student_name"
+        android:textSize="24sp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tvPhoneNumberResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student_phone_number"
+        android:textSize="24sp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
